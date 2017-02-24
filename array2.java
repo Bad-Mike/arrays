@@ -11,7 +11,8 @@ public class array2 {
 
         int[] array = new int[5];      // array
 
-        for (int x = 0; x < 5; x++) {
+        //for (int x = 0; x < 5; x++) {     //old
+        for (int x = 0; x < array.length; x++) {	//flexible code
 
             array[x] = value;
 
